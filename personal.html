@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+          <title>localHost </title>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="css/styles.css"> 
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+  
+<body>    
+<div class="w3-sidebar w3-bar-block w3-black w3-animate-left w3-hover-opacity-off" style="display:none" id="mySidebar">
+    <button class="w3-bar-item w3-button w3-dark-grey w3-large" onclick="w3_close()">Close &times;</button>
+
+    <a href="#" class="w3-bar-item w3-button home">Home</a>
+    <a href="#" class="w3-bar-item w3-button ">Projects <span class="w3-tag w3-right w3-margin-right projects">8</span></a>
+    <a href="#" class="w3-bar-item w3-button">About</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Subscribe!</a>
+
+    <br><br> <br><br> <br> 
+    <div class="Project">
+        <!-- https://brisseaux.tumblr.com/post/91018371936 -->
+        <img src="https://66.media.tumblr.com/fae679b2a8accbd4f673224bdd379047/tumblr_p0cg49tkJz1whahvko1_500.gif" alt="" class="imgMasked" />
+        <div class="Project-hail"></div>
+        <div class="Project-hail2"></div>
+        <p class="Project-name"> "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe." <br><br> -Albert Einstein</p>
+    </div>
+</div>
+<!-- PIXELATED BALL VORTEX ANIMATION ---------------------------------------->
+<a id="burger_button" href="#!" onclick="w3_open();">
+<div class="section w3-display-topleft "> 
+    <div class="container">
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+    </div>
+</div>
+</a>
+
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
+
+
+
+<!-- SOCIAL MEDIA SHARE BUTTONS ---------------------------------------->
+<div class="social_media_buttons">
+<div class="w3-display-right w3-transparent a2a_kit a2a_kit_size_32 a2a_default_style" style="width:3%">
+    <p class="w3-right-align w3-opacity w3-transparent SHARE"> Share! </p>
+    <br>
+    <a class="a2a_button_facebook w3-margin-top w3-opacity w3-hover-opacity-off"></a>
+    <a class="a2a_button_reddit w3-margin-top w3-opacity w3-hover-opacity-off"></a>
+    <a class="a2a_button_twitter w3-margin-top w3-hover-opacity-off"></a>
+    <a class="a2a_button_linkedin w3-margin-top w3-opacity w3-hover-opacity-off"></a>
+    <a class="a2a_button_wechat w3-margin-top w3-hover-opacity-off"></a>
+    <a class="a2a_button_pinterest w3-margin-top w3-opacity w3-hover-opacity-off"></a>
+    <a class="a2a_dd w3-margin-top w3-hover-opacity-off" href="https://www.addtoany.com/share"></a> 
+    </div>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+  </div>
+ 
+
+<!--------------------------- BACK TO TOP OF THE PAGE BUTTON ---------------------------------------->
+<a  href="#"> <div class="fa fa-arrow-circle-up w3-display-bottomleft w3-hover-opacity-off" style="font-size:32px;color:#4eb6f1"></div><a>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script>
+//SCROLL UP ANIMATION FOR 'BACK-TO-TOP' BUTTON
+$(document).ready(function(){
+  $(function () {
+    $('.fa-arrow-circle-up').click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+    });
+});
+</script>
+<!-- ----------------------------------------------------------------------------------------------->
+
+
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------------------- -->
+<!-- UNDERLYING PAGE CONTENT OTHER THAN THE NAVIGATION AND SOCIAL MEDIA LINK BUTTONS  -------------------->
+<br><br><br><br><br><br><br><br>
+
+<div class="contents"> 
+<!-- Hover over animation with swirling colors ---------------------------------------->
+<!-- <a target="_blank"> <p id="id1"> hover here </p></a> -->
+<img src="images/lioneyesonly.jpeg" class="header_background" />
+
+
+ <!-- QUOTE ------------------------------------------------------------------> 
+ <div class="w3-panel w3-leftbar w3-light-grey">
+        <p class="w3-xlarge w3-serif">
+        <i>"Make it as simple as possible, but not simpler."</i></p>
+        <p>Albert Einstein</p>
+      </div>
+<!-- End of QUOTE ------------------------------------------------------------------>
+
+<!-- POSTS ------------------------------------------------------------------>
+<div class="posts w3-row-padding w3-column-padding w3-margin-top">
+  <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+        <img src="images/pexels-photo-134062.jpeg" style="width:100%" class="w3-hover-grayscale w3-hover-opacity">
+    <div class="w3-container">
+        <h5><strong> Testing Bold Characters </strong> And Regular? </h5>
+        <p style="color:rgb(180, 180, 180);"> <small> Testing small text too </small> this is a sample......</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+        <a href="https://www.w3schools.com" target="_blank">
+            <img src="images/ls.jpg" style="width:100%">
+        </a>
+      <div class="w3-container">
+        <h5>Click me to link to another tab</h5>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+        <a href="bg1.html"><img src="images/ls.jpg" style="width:100%" class="w3-hover-grayscale">
+        </a> <div class="w3-container">
+        <h5>Vernazza</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="posts w3-row-padding w3-column-padding w3-margin-top">
+   <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+      <img src="images/ls.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Manarola</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+      <img src="images/ls.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Corniglia</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third w3-padding">
+    <div class="w3-card-4">
+      <img src="images/ls.jpg" style="width:100%">
+      <div class="w3-container">
+        <h5>Riomaggiore</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END-POSTS ------------------------------------------------------------------>
+
+
+<!-- TABS ------------------------------------------------------------------>
+<hr>
+<h2 class="w3-center">Tabs</h2>
+<div class="w3-border">
+<div class="w3-bar w3-theme">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16 w3-hover-green" onclick="openCity(event,'London')">London</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Paris')">Paris</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Tokyo')">Tokyo</button>
+</div>
+<hr>
+
+<div id="London" class="w3-container city w3-animate-opacity">
+        <h2>London</h2>
+        <p>London is the capital city of England.</p>
+        <p>It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      </div>
+      
+      <div id="Paris" class="w3-container city w3-animate-opacity">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p> 
+        <p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p>
+      </div>
+      
+      <div id="Tokyo" class="w3-container city w3-animate-opacity">
+        <h2>Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+        <p>It is the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+      </div>
+</div>
+
+<script> 
+ function openCity(evt, cityName) {
+    var i;
+    var x = document.getElementsByClassName("city");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    var activebtn = document.getElementsByClassName("testbtn");
+    for (i = 0; i < x.length; i++) {
+        activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " w3-dark-grey";
+  }
+  
+  var mybtn = document.getElementsByClassName("testbtn")[0];
+  mybtn.click();
+</script>
+<!--  END-TABS ------------------------------------------------------------------>
+</div>
+
+ 
+<!--  FOOTER ------------------------------------------------------------------>
+<br>
+<footer class="w3-center w3-black w3-padding-32  ">
+    <div class="w3-xlarge w3-section contact">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p id="email">Or contact us through email:</p>
+      <br>
+      </a><i class="material-icons" style="font-size:36px"><a href="mailto:elb5465@gmail.com">question_answer</a></i> 
+    </div>
+  </footer>
+<!--  END-FOOTER ------------------------------------------------------------------>
+
+</body>
+</html>
